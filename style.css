@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #ff69b4, #ffb6c1);
+    color: white;
+    text-align: center;
+}
+
+/* Container */
+.container {
+    padding: 40px 20px 60px;
+}
+
+/* Animated intro */
+.animated-text {
+    animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+    40% { transform: translateY(-15px); }
+    60% { transform: translateY(-8px); }
+}
+
+/* Button */
+button {
+    padding: 15px 35px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 12px;
+    background: #ff1493;
+    color: white;
+    cursor: pointer;
+}
+
+/* Hidden */
+.hidden {
+    display: none;
+}
+
+/* Big birthday text (pink) */
+#bigBirthday {
+    font-size: 3em;
+    margin-top: 30px;
+    color: #ff1493;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+}
+
+/* White text */
+#birthdayMessage {
+    font-size: 1.6em;
+    margin-top: 20px;
+}
+
+#birthdaySpeech {
+    font-size: 1.2em;
+    margin-top: 25px;
+    line-height: 1.7;
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.4);
+}
+
+/* From Victor */
+#fromVictor {
+    font-size: 2.5em;
+    margin-top: 40px;
+    color: #ff1493;
+}
